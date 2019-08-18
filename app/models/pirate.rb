@@ -12,4 +12,8 @@ class Pirate
   def self.all
     pir_array
   end
+
+  def self.clear
+
+  end
 end
