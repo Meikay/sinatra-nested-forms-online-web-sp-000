@@ -7,13 +7,11 @@ class Pirate
     @name = args[:name]
     @weight = args[:weight]
     @height = args[:height]
+    pir_array << self
   end
 
   def self.all
     pir_array
   end
 
-  def self.clear
-    pir_array.delete
-  end
 end
