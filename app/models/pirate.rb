@@ -14,6 +14,6 @@ class Pirate
   end
 
   def self.clear
-
+    pir_array.delete
   end
 end
